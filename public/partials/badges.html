@@ -1,6 +1,6 @@
 	<div>
       <ul class="thumbnails">
-        <li class="span3" ng-repeat="badge in list.badges | orderBy: '-earned_date'">
+        <li class="span3" ng-repeat="badge in badges | orderBy: '-earned_date'">
           <a href="{{badge.url}}" target="_self" class="shot">
 	          	<strong class="title">{{badge.name}}</strong>
 	          	<img ng-src="{{badge.icon_url}}" class="shot-image">
