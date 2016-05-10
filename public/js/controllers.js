@@ -2,7 +2,7 @@
 
 var url= 'https://teamtreehouse.com/iuliamarialungu.json';
 
-app.controller('BadgesCtrl', function($scope, $http){
+app.controller('BadgesCtrl', function($scope, $http, dataService ){
 	$scope.list;
 	$http.get(url)
 	.success(function successCallback (data) {
@@ -11,6 +11,5 @@ app.controller('BadgesCtrl', function($scope, $http){
 	});
 
 app.controller('CourseCtrl', function($scope){
-	
-	});
 
+	});
