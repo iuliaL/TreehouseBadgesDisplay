@@ -7,7 +7,11 @@
 }
 
 .loader {
+<<<<<<< 3a5504b4600b1b24cb5612d8aeb5486cf2b2ebff
 	background: url('../assets/720.gif') no-repeat center center;
+=======
+	background: url('/assets/720.gif') no-repeat center center;
+>>>>>>> added loader fixed css bugs in mozilla
     background-size: 150px;
 	height: 100vh;
 	width: 100%;
@@ -67,11 +71,16 @@
   border-radius: 5px;
   color: #0087cc;
   transform: perspective(1000px) rotateY(180deg);
+<<<<<<< 3a5504b4600b1b24cb5612d8aeb5486cf2b2ebff
 <<<<<<< 9e4f9b2e04ddfcb47c67fe7cc8c3fa329cc20127
   -moz-transform: perspective(1000px) rotateY(180deg);
     backface-visibility: hidden;
 =======
 >>>>>>> modified styles a bit
+=======
+  -moz-transform: perspective(1000px) rotateY(180deg);
+    backface-visibility: hidden;
+>>>>>>> added loader fixed css bugs in mozilla
 }
 .back strong {
   position: relative;
