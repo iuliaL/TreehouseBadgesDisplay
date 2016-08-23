@@ -13,10 +13,10 @@ app.service('dataService', function ($http, $q) {
             // once all the promises are completed .then() will be executed
             // and results will have the object that contains the data
                 var aggregatedData = [];
-                angular.forEach(results, function (result) {
+                results.forEach( function (result) {
                     aggregatedData = aggregatedData.concat(result.data.badges);
                 });
-                 return aggregatedData;
+                return aggregatedData;
             });
         }
      };
