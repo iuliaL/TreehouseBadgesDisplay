@@ -1,5 +1,9 @@
+body {
+  background-color: #eef;
+}
+
 .navbar {
-  margin-top: 20px;
+  margin-top: 70px;
 }
 .navbar .nav {
   top: 10px;
@@ -7,12 +11,8 @@
 }
 
 .loader {
-<<<<<<< 3a5504b4600b1b24cb5612d8aeb5486cf2b2ebff
-	background: url('../assets/720.gif') no-repeat center center;
-=======
-	background: url('/assets/720.gif') no-repeat center center;
->>>>>>> added loader fixed css bugs in mozilla
-    background-size: 150px;
+	background: url('/assets/35.gif') no-repeat center center;
+    background-size: 50px;
 	height: 100vh;
 	width: 100%;
 }
