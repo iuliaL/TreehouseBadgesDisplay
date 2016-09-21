@@ -13,7 +13,7 @@ body {
 .loader {
 	background: url('../assets/35.gif') no-repeat center center;
     background-size: 50px;
-	height: 100vh;
+	height: 250px;
 	width: 100%;
 }
 
