@@ -1,4 +1,3 @@
-// node server to test getting geolocation API ;
 var express = require('express');
 var app = express();
 
